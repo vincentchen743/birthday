@@ -1,0 +1,30 @@
+body {
+  background-color: blanchedalmond;
+}
+
+@media screen and (min-width: 1000px) {
+  .App {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .App {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+  }
+}
+
+.homeForm {
+  width: 300px;
+  margin: auto;
+}
+
+.grid {
+  justify-content: center;
+  margin: 0;
+  width: 100%;
+}
